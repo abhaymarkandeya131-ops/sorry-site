@@ -145,9 +145,9 @@ export default function GiftPage() {
                 <div className="absolute w-64 h-64 mx-auto inset-0 bg-gradient-to-r from-pink-400/30 to-purple-400/30 rounded-full blur-2xl scale-110"></div>
 
                 <img
-                  src="https://media.tenor.com/qb-sI_XqLqAAAAAi/bubu-dudu-sseeyall.gif"
+                  src="/gifs/teddy-giving-flower.gif"
                   alt="Teddy giving flower"
-                  className="w-64 h-64 mx-auto relative z-10 drop-shadow-2xl"
+                  className="w-52 mx-auto relative z-10 drop-shadow-2xl"
                 />
 
                 {/* Floating elements around teddy */}

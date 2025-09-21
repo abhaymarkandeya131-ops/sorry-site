@@ -44,7 +44,7 @@ export default function Home() {
       <StarryBackground />
 
       {/* Uncomment this if you want to add a background song */}
-      {/* {showMusicPlayer && <MusicPlayer musicPlaying={musicPlaying} setMusicPlaying={setMusicPlaying} />} */}
+      {showMusicPlayer && <MusicPlayer musicPlaying={musicPlaying} setMusicPlaying={setMusicPlaying} />}
 
       <AnimatePresence mode="wait">
         <motion.div
